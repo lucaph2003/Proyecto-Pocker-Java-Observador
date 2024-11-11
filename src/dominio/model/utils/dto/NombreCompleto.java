@@ -1,4 +1,4 @@
-package model.utils.dto;
+package dominio.model.utils.dto;
 
 public class NombreCompleto {
     private String nombre;

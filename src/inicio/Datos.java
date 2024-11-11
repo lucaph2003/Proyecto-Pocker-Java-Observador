@@ -1,7 +1,7 @@
 package inicio;
 
-import model.fachada.Fachada;
-import model.utils.dto.NombreCompleto;
+import servicios.fachada.Fachada;
+import dominio.model.utils.dto.NombreCompleto;
 
 public class Datos {
 

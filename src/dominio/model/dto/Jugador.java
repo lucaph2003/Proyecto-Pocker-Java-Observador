@@ -1,6 +1,6 @@
-package model.dto;
+package dominio.model.dto;
 
-import model.utils.dto.NombreCompleto;
+import dominio.model.utils.dto.NombreCompleto;
 
 public class Jugador extends Usuario{
     private int saldo;

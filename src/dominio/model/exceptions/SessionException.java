@@ -1,6 +1,6 @@
-package model.exceptions;
+package dominio.model.exceptions;
 
-import model.utils.enums.SessionExceptionTypes;
+import dominio.model.utils.enums.SessionExceptionTypes;
 
 public class SessionException extends RuntimeException {
     private SessionExceptionTypes type;

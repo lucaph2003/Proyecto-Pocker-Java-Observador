@@ -1,9 +1,9 @@
-package model.fachada;
+package servicios.fachada;
 
-import model.dto.Session;
-import model.logic.SistemaAcceso;
-import model.logic.SistemaPoker;
-import model.utils.dto.NombreCompleto;
+import dominio.model.dto.Session;
+import dominio.logic.SistemaAcceso;
+import dominio.logic.SistemaPoker;
+import dominio.model.utils.dto.NombreCompleto;
 
 public class Fachada {
 

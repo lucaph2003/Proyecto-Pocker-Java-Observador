@@ -1,8 +1,8 @@
-package model.dto;
+package dominio.model.dto;
 
-import model.exceptions.MesaException;
-import model.utils.enums.MesaExceptionTypes;
-import model.utils.enums.MesaStatus;
+import dominio.model.exceptions.MesaException;
+import dominio.model.utils.enums.MesaExceptionTypes;
+import dominio.model.utils.enums.MesaStatus;
 
 import java.util.ArrayList;
 import java.util.List;

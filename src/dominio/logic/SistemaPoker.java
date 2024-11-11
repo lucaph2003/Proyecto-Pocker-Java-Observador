@@ -1,7 +1,7 @@
-package model.logic;
+package dominio.logic;
 
-import model.dto.Mesa;
-import model.exceptions.MesaException;
+import dominio.model.dto.Mesa;
+import dominio.model.exceptions.MesaException;
 
 import java.util.List;
 

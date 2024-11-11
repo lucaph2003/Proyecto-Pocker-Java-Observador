@@ -1,4 +1,4 @@
-package model.utils.enums;
+package dominio.model.utils.enums;
 
 public enum MesaExceptionTypes {
     INVALID_CANT_JUGADORES,

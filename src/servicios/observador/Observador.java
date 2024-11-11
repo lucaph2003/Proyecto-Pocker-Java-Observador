@@ -1,4 +1,4 @@
-package observador;
+package servicios.observador;
 
 public interface Observador {
 }

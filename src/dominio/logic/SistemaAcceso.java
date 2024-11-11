@@ -1,12 +1,12 @@
-package model.logic;
+package dominio.logic;
 
-import model.dto.Administrador;
-import model.dto.Jugador;
-import model.dto.Session;
-import model.dto.Usuario;
-import model.exceptions.SessionException;
-import model.utils.dto.NombreCompleto;
-import model.utils.enums.SessionExceptionTypes;
+import dominio.model.dto.Administrador;
+import dominio.model.dto.Jugador;
+import dominio.model.dto.Session;
+import dominio.model.dto.Usuario;
+import dominio.model.exceptions.SessionException;
+import dominio.model.utils.dto.NombreCompleto;
+import dominio.model.utils.enums.SessionExceptionTypes;
 
 import java.util.ArrayList;
 import java.util.List;

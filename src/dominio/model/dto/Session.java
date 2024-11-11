@@ -1,4 +1,4 @@
-package model.dto;
+package dominio.model.dto;
 
 import java.util.Date;
 

@@ -1,6 +1,6 @@
-package model.utils.enums;
+package dominio.model.utils.enums;
 
-public enum ManoStatus {
+public enum  ManoStatus {
     ESPERANDO_APUESTA,
     APUESTA_INICIADA,
     PIDIENDO_CARTAS,

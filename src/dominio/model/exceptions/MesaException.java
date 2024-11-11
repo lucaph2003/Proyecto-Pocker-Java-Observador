@@ -1,7 +1,6 @@
-package model.exceptions;
+package dominio.model.exceptions;
 
-import model.utils.enums.MesaExceptionTypes;
-import model.utils.enums.SessionExceptionTypes;
+import dominio.model.utils.enums.MesaExceptionTypes;
 
 public class MesaException extends RuntimeException {
     private MesaExceptionTypes type;
