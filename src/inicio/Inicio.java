@@ -1,9 +1,11 @@
 package inicio;
 
-import ui.vista.InicioFrame;
+import ui.vista.FrameInicio;
 
 public class Inicio {
     public static void main(String[] args) {
-        new InicioFrame().setVisible(true);
+        Datos.precargaAdministradores();
+        Datos.precargaJugadores();
+        new FrameInicio().setVisible(true);
     }
 }

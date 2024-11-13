@@ -20,7 +20,7 @@ public class Session {
 
     @Override
     public String toString() {
-        return usuario.getNombreCompleto().getNombreCompleto();
+        return usuario.getNombreCompleto().show();
     }
 
     @Override

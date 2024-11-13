@@ -28,15 +28,15 @@ public class Mesa {
 
     private void Validar(){
         if(this.cantidadJugadores < 2 || this.cantidadJugadores > 5 ){
-            throw new MesaException("Cantidad de jugadores no válida", MesaExceptionTypes.INVALID_CANT_JUGADORES);
+            throw new MesaException("Cantidad de jugadores no válida, debe ser entre 2 y 5", MesaExceptionTypes.INVALID_CANT_JUGADORES);
         }
 
         if(this.montoBase < 1){
-            throw new MesaException("Apuesta base inválida", MesaExceptionTypes.INVALID_MONTO);
+            throw new MesaException("Apuesta base inválida, debe ser mayor a 1", MesaExceptionTypes.INVALID_MONTO);
         }
 
         if(this.porcentaje < 1 || this.porcentaje > 50){
-            throw new MesaException("Comisión inválida", MesaExceptionTypes.INVALID_PORCENTAJE);
+            throw new MesaException("Comisión inválida, debe ser entre 1 y 50", MesaExceptionTypes.INVALID_PORCENTAJE);
         }
     }
 

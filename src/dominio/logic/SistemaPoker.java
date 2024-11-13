@@ -2,14 +2,26 @@ package dominio.logic;
 
 import dominio.model.dto.Mesa;
 import dominio.model.exceptions.MesaException;
+import java.util.ArrayList;
 
 import java.util.List;
 
 public class SistemaPoker {
-    private List<Mesa> ListaMesas;
-
-    public void CrearMesa(int CantidadJugadores, int MontoBase, int Porcentaje) throws MesaException{
-        Mesa mesa = new Mesa(CantidadJugadores,MontoBase,Porcentaje);
+    private ArrayList<Mesa> ListaMesas= new ArrayList<>();
+    
+    public void CrearMesa(Mesa mesa) throws MesaException{
         ListaMesas.add(mesa);
+    }
+    
+    public double obtenerMontoTotalRecaudado(){
+        return 4.1;
+    }
+    
+    public List<Mesa> obtenerMesas(){
+        return ListaMesas;
+    }
+    
+    public List<Mesa> obtenerMesasAbiertas(){
+        return ListaMesas;
     }
 }

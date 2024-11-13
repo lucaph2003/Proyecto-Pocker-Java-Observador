@@ -4,10 +4,23 @@
  */
 package ui.controllers;
 
+import dominio.model.dto.Session;
+import ui.vista.ILoginVista;
+
 /**
  *
  * @author lpodesta
  */
-public class JugadorLoginController {
+public class JugadorLoginController extends LoginController {
+
+    public JugadorLoginController(ILoginVista vista) {
+        super(vista);
+    }
+
+   
+    @Override
+    protected Session loginInterno(String ci, String password) {
+        return fachada.LoginJugador(ci, password);
+    }
     
 }

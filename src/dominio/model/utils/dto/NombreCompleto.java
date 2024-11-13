@@ -30,7 +30,7 @@ public class NombreCompleto {
     public String getApellido() {
         return apellido;
     }
-    public String getNombreCompleto(){
+    public String show(){
         String nombreCompleto = "";
         nombreCompleto += (this.nombre !=null ? this.nombre + " ": "");
         nombreCompleto += (this.segundoNombre !=null ? this.segundoNombre + " " : "");
